@@ -1,0 +1,63 @@
+body {
+    background-color: #f3f1f7;
+}
+
+.title{
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(3, 169, 244); 
+    text-align: center;
+    font-size: 40px;
+}
+
+.ntbutton{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 58px;
+    font-size: 22px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.section {
+    font-family: 'Dosis', sans-serif;
+    background-color: white;
+    border: 2px solid black;
+}
+
+section {
+    border-bottom: 1px solid gray;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+.name {
+    padding-left: 100px;
+    margin-bottom: -30px;
+}
+
+.thought {
+    padding-left: 105px;
+    margin-bottom: -30px;
+    font-size: 25px;
+
+}
+
+.xbutton {
+        font-size: 30px;
+        border: none;
+        margin-left: 98%;
+        margin-bottom: 40px;
+}
+
+form {
+    background-color:#B1DDEA;
+    border: 2px solid black;
+    width: 98.7%;
+    height: 80%;
+    margin-top: -37.7%;
+    margin-left: -30px;
+    margin-right: 40px;
+    position: absolute; 
+}

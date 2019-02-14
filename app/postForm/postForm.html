@@ -1,0 +1,11 @@
+<form ng-show="$ctrl.formToggle" ng-submit= "$ctrl.addPost({newPost: $ctrl.newPost})"> 
+    <p>Title</p>
+    <input id="input1" expand type="text" ng-model= "$ctrl.newPost.title">
+    <!-- Gave the inputs an id of $ctrl.newPost.title -->
+    <!-- They have $ctrl.newPost in common so you have to include it in your form -->
+    <p>Thought</p>
+    <textarea id="input2" expand name="" id="" cols="30" rows="10" ng-model="$ctrl.newPost.thought"></textarea>
+    <button>Add Post</button>
+
+</form>
+

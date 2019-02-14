@@ -1,0 +1,16 @@
+ <h1 class="title">My Thoughts<h1>
+
+<button class="ntbutton" ng-click="$ctrl.showForm();">New Thought</button>
+
+<section class="section">
+<section ng-repeat= "post in $ctrl.listposts track by $index">
+<post listpost="post" remove-post="$ctrl.removePost(index)"></post>
+</section>
+
+<postform 
+add-post="$ctrl.addPost(newPost);" 
+form-toggle="$ctrl.formToggle" 
+show-form="$ctrl.showForm();"
+></postform>
+</section>
+
